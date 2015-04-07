@@ -16,6 +16,12 @@ var MembroSchema = new Schema({
 		required: 'Please fill Membro name',
 		trim: true
 	},
+	grauParentesco: {
+		type: String,
+		default: '',
+		required: 'Informar o grau de parentesco',
+		trim: true
+	},
 	created: {
 		type: Date,
 		default: Date.now
